@@ -11,5 +11,5 @@ var ipaddress =  process.env.IP   || process.env.OPENSHIFT_NODEJS_IP || "127.0.0
 
 var port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
 server.listen( port, ipaddress, function() {
-    console.log((new Date()) + ' %s Server is listening on port %d', ipaddress,port);
+    console.log((new Date()) + ' %s Server is listening on port %d v1', ipaddress,port);
 });
