@@ -1,0 +1,20 @@
+{
+  "name": "a-nodejs-hello-world",
+  "version": "1.0.0",
+  "description": "Hello World node.js app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markusvankempen/a-nodejs-hello-world.git"
+  },
+  "author": "Markus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markusvankempen/a-nodejs-hello-world/issues"
+  },
+  "homepage": "https://github.com/markusvankempen/a-nodejs-hello-world#readme"
+}
