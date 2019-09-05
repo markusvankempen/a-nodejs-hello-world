@@ -6,6 +6,8 @@ var server = http.createServer(function(request, response) {
     response.end("Markus Test <BR> Hello World! <BR>a-nodejs-hello-world 1");
 
 });
+
+
 var port = 80;
 server.listen(port);
 
